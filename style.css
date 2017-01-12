@@ -1,6 +1,6 @@
 .navbar{
   border: solid black;
-  width: auto;
+  width: 1000px;
   height: 125px;
   background-color: #444541;
   color: #ac194a;
@@ -10,8 +10,10 @@
   padding-bottom: 10px;
   padding-top: 10px;
   position: relative;
-  display: inline-block;
+  /*display: inline-block;*/
   cursor: pointer;
+  margin: auto;
+
 }
 .space{
   height: 0.1px;
@@ -26,7 +28,8 @@ a {
 /* The actual popup (appears on top) */
 .navbar .popuptext {
    visibility: hidden;
-   width: 160px;
+   width: 500px;
+   height: 150px;
    background-color: #555;
    color: #fff;
    text-align: center;
@@ -34,9 +37,14 @@ a {
    padding: 8px 0;
    position: absolute;
    z-index: 1;
-   bottom: 125%;
-   left: 50%;
-   margin-left: -80px;
+   top: 24;
+   bottom: 10;
+   /*padding-top: 400px;*/
+   /*right: 40%;*/
+   left: 250;
+   margin: auto;
+   font-family: 'Roboto', sans-serif;
+   font-size: 30px;
 }
 
 /* Popup arrow */
