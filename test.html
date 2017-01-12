@@ -1,9 +1,26 @@
 <html>
-
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
+<body bgcolor = "#2d2e2f">
+  <script>
+// When the user clicks on <div>, open the popup
+function myFunction() {
+    var popup = document.getElementById('myPopup1');
+    popup.classList.toggle('show');
+}
+</script>
 <ul>
-  <li>Home</li>
-  <li>Contact</li>
-  <li>About</li>
+  <div class= "navbar" id = "home"><a href="#home">Home</a></div>
+  <p class ="space"></p>
+  <div class = "navbar" onclick="myFunction()">Contact
+    <span class="popuptext" id="myPopup1">Hi</span>
+    </div>
+  <p class ="space"></p>
+  <div class = "navbar">GitHub!</div>
+  <p class = "space"></p>
+  <div class = "navbar">About</div>
+  <p class ="space"></p>
 </ul>
-
+</body>
 </html>
