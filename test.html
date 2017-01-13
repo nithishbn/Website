@@ -2,25 +2,26 @@
 <link rel="stylesheet" href="style.css">
 <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
-<link href = "https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
 <body bgcolor = "#2d2e2f">
   <script>
 // When the user clicks on <div>, open the popup
 function popups() {
-    var popup = document.getElementById('myPopup1');
+    var popup = document.getElementById('contactpop');
     popup.classList.toggle('show');
 }
 </script>
 <ul>
-  <div class= "navbar" id = "home" align=center><a href="#home">Home</a></div>
+  <div class= "navbar" id = "home"><a href="#home">Home</a></div>
   <p class ="space"></p>
   <div class = "navbar" onclick="popups()">Contact
     <span class="popuptext" id="contactpop">If you would like to contact Nithish Narasimman, just email him at nithishbn@nithishbn.me</span>
     </div>
   <p class ="space"></p>
-  <div class = "navbar"><a href="https://www.github.com/nithishbn">GitHub!</a></div>
+  <div class = "navbar"><a href="https://www.github.com/nithishbn/">GitHub!</a></div>
   <p class = "space"></p>
-  <div class = "navbar" onclick="popups()">
+  <div class = "navbar" onclick="popups()">About
     <span class="popuptext" id="aboutpop">Nithish Narasimman, age 14, attends Juanita High School.</span></div>
   <p class ="space"></p>
 </ul>
