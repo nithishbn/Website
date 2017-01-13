@@ -6,7 +6,7 @@
 <body bgcolor = "#2d2e2f">
   <script>
 // When the user clicks on <div>, open the popup
-function myFunction() {
+function popups() {
     var popup = document.getElementById('myPopup1');
     popup.classList.toggle('show');
 }
@@ -14,13 +14,14 @@ function myFunction() {
 <ul>
   <div class= "navbar" id = "home" align=center><a href="#home">Home</a></div>
   <p class ="space"></p>
-  <div class = "navbar" onclick="myFunction()">Contact
-    <span class="popuptext" id="myPopup1">If you would like to contact Nithish Narasimman, just email him at nithishbn@nithishbn.me</span>
+  <div class = "navbar" onclick="popups()">Contact
+    <span class="popuptext" id="contactpop">If you would like to contact Nithish Narasimman, just email him at nithishbn@nithishbn.me</span>
     </div>
   <p class ="space"></p>
   <div class = "navbar"><a href="https://www.github.com/nithishbn">GitHub!</a></div>
   <p class = "space"></p>
-  <div class = "navbar">About</div>
+  <div class = "navbar" onclick="popups()">
+    <span class="popuptext" id="aboutpop">Nithish Narasimman, age 14, attends Juanita High School.</span></div>
   <p class ="space"></p>
 </ul>
 </body>
