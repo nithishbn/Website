@@ -9,6 +9,7 @@
   font-family: 'Bungee Shade', cursive;
   padding-bottom: 10px;
   padding-top: 10px;
+  padding-right: 10px;
   position: relative;
   /*display: inline-block;*/
   cursor: pointer;
@@ -34,7 +35,7 @@ a {
    color: #fff;
    text-align: center;
    border-radius: 6px;
-   padding: 8px 0;
+   /*padding: 8px 0;*/
    position: absolute;
    z-index: 1;
    top: 24;
