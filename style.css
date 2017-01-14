@@ -1,20 +1,33 @@
 .navbar{
   border: solid black;
-  width: 1000px;
-  height: 125px;
+  width: 800px;
+  height: 100px;
   background-color: #444541;
   color: #ac194a;
   font-size: 50px;
   text-align: center;
+  vertical-align:middle;
+  line-height: 100px;
   font-family: 'Bungee Shade', cursive;
-  padding-bottom: 10px;
+  /*padding-bottom: 10px;
   padding-top: 10px;
-  padding-right: 10px;
-  position: relative;
-  /*display: inline-block;*/
+  padding-right: 10px;*/
+  /*position: relative;*/
+  display:block;
   cursor: pointer;
   margin: auto;
+}
+p{
+  font-family: "Roboto", serif;
 
+}
+body {
+  margin: auto;
+  text-align: center;
+}
+.text-container {
+  color: #ac194a;
+  text-align: center;
 }
 .space{
   height: 0.1px;
@@ -44,6 +57,7 @@ a {
    /*right: 40%;*/
    /*left: 25;*/
    margin: auto;
+
    font-family: 'Roboto', sans-serif;
    font-size: 30px;
 }
