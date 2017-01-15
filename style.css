@@ -2,13 +2,14 @@
   width: 75vh;
   background-color: #444541;
   color: #ac194a;
-  font-size: 50px;
+  font-size: 6.5vh;
   text-align: center;
   vertical-align: middle;
   font-family: 'Bungee Shade', cursive;
-  margin-right: auto;
-  margin-left: auto;
-  height: 12vh;
+  /*margin-right: auto;
+  margin-left: auto;*/
+  margin: auto;
+  height: auto;
 }
 p{
   font-family: 'VT323', monospace;
