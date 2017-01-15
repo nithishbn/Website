@@ -1,5 +1,4 @@
 .navbar{
-
   background-color: #444541;
   color: #ac194a;
   font-size: 50px;
@@ -10,7 +9,7 @@
   /*margin-right: auto;
   margin-left: auto;*/
   margin: auto;
-  height: 2.5em;
+  height: auto;
 }
 p{
   font-family: 'VT323', monospace;
