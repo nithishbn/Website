@@ -1,54 +1,51 @@
 .navbar{
   width: 650px;
-  height: 100px;
   background-color: #444541;
   color: #ac194a;
   font-size: 50px;
   text-align: center;
-  vertical-align:middle;
-  line-height: 100px;
   font-family: 'Bungee Shade', cursive;
-  /*padding-bottom: 10px;
-  padding-top: 10px;
-  padding-right: 10px;*/
-  /*position: relative;*/
-  /*display:block;*/
-  /*cursor: pointer;*/
-  margin: auto;
+  margin-right: auto;
+  margin-left: auto;
 }
 p{
-  font-family: "Roboto", serif;
+  font-family: 'VT323', monospace;
+}
 
-}
-body {
-  margin: auto;
-  text-align: center;
-}
 .text-container {
+  font-family: 'VT323', monospace;
   color: #ac194a;
+  background-color: #57585a;
   text-align: center;
-  margin:auto;
-  border: solid black;
-  width: 650;
-  vertical-align: middle;
-  line-height: 100px;
-  margin-right: 78px;
+  width: 650px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .space{
   height: 0.1px;
-
 }
 a {
   color: inherit;
   text-decoration: none;
 }
 .largetext {
-  font-family: "Roboto", serif;
+  font-family: 'VT323', monospace;
   font-size: 25px;
   text-align: center;
-  margin: auto;
+  margin-left: 20px;
+  margin-right: 20px;
 }
-.navbar .popuptext {
+.supertext{
+  font-family: 'VT323', monospace;
+  font-size: 40px;
+  text-align: center;
+  margin: auto;
+   text-decoration: underline;
+}
+.link {
+  color: #d23d6f;
+}
+/*.navbar .popuptext {
    visibility: hidden;
    width: 500px;
    height: 150px;
@@ -56,40 +53,24 @@ a {
    color: #fff;
    text-align: center;
    border-radius: 6px;
-   /*padding: 8px 0;*/
    position: absolute;
    z-index: 1;
    top: 24;
    bottom: 10;
-   /*padding-top: 400px;*/
-   /*right: 40%;*/
-   /*left: 25;*/
-   margin: auto;
+
+   margin-right: auto;
+   margin-left: auto;
 
    font-family: 'Roboto', sans-serif;
    font-size: 30px;
 }
 
-/* Popup arrow */
-/*.popup .popuptext::after {
-   content: "";
-   position: absolute;
-   top: 100%;
-   left: 50%;
-   margin-left: -5px;
-   border-width: 5px;
-   border-style: solid;
-   border-color: #555 transparent transparent transparent;
-}*/
-
-/* Toggle this class when clicking on the popup container (hide and show the popup) */
 .navbar .show {
    visibility: visible;
    -webkit-animation: fadeIn 1s;
    animation: fadeIn 1s
 }
 
-/* Add animation (fade in the popup) */
 @-webkit-keyframes fadeIn {
    from {opacity: 0;}
    to {opacity: 1;}
@@ -98,4 +79,4 @@ a {
 @keyframes fadeIn {
    from {opacity: 0;}
    to {opacity:1 ;}
-}
+}*/
