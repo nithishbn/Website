@@ -4,10 +4,11 @@
   color: #ac194a;
   font-size: 50px;
   text-align: center;
+  vertical-align: middle;
   font-family: 'Bungee Shade', cursive;
   margin-right: auto;
   margin-left: auto;
-  height: auto;
+  height: 12vh;
 }
 p{
   font-family: 'VT323', monospace;
@@ -18,7 +19,7 @@ p{
   color: #ac194a;
   background-color: #57585a;
   text-align: center;
-  width: 650px;
+  width: 75vh;
   margin-right: auto;
   margin-left: auto;
 
