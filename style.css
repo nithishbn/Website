@@ -1,15 +1,16 @@
 .navbar{
-  width: 75vh;
+
   background-color: #444541;
   color: #ac194a;
-  font-size: 6.5vh;
+  font-size: 50px;
+  width: 12em;
   text-align: center;
   vertical-align: middle;
   font-family: 'Bungee Shade', cursive;
   /*margin-right: auto;
   margin-left: auto;*/
   margin: auto;
-  height: auto;
+  height: 2.5em;
 }
 p{
   font-family: 'VT323', monospace;
@@ -20,9 +21,10 @@ p{
   color: #ac194a;
   background-color: #454444;
   text-align: center;
-  width: 75vh;
+  width: 37.5em;
   margin-right: auto;
   margin-left: auto;
+  height: auto;
 
 }
 .space{
