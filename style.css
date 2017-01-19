@@ -37,12 +37,18 @@
   margin-left: auto;*/
   margin: auto;
   /*height: 3em;*/
+
+}
+@keyframes shadowappear
+  from {text-shadow: 5px 5px 5px black;}
+  to {text-shadow: 10px 10px 10px black;}
 }
 .navbar:hover{
-  text-shadow: 10px 10px 10px #000;
-  -webkit-transition: text-shadow 0.5s ease-in-out;
-  text-shadow: 5px 5px 5px #000;
-  -webkit transition:text-shadow 0.5s ease-in-out;
+  animation-name: shadowappear;
+  animation-delay: 0.25s;
+  animation-iteration-count: 5s;
+  /*text-shadow: 5px 5px 5px #000;
+  -webkit-transition: text-shadow 0.5s ease-in-out;*/
 }
 p{
   /*font-family: 'VT323', monospace;*/
