@@ -15,7 +15,24 @@
   vertical-align: middle;
   /*font-family: 'Bungee Shade', cursive;*/
   /*font-family: 'Orbitron', sans-serif;*/
-  font-family: 'Lobster', cursive;
+  /*font-family: 'Lobster', cursive;*/
+
+
+    font-family: 'Bungee Hairline', cursive;
+
+
+        /*font-family: 'Bungee Hairline', cursive;*/
+
+        /*font-family: 'Bungee Outline', cursive;*/
+
+        /*font-family: 'Bungee Shade', cursive;*/
+
+        /*font-family: 'Bungee', cursive;*/
+
+        /*font-family: 'Bungee Inline', cursive;*/
+
+
+
   /*margin-right: auto;
   margin-left: auto;*/
   margin: auto;
@@ -36,7 +53,8 @@ p{
 .text-container {
   /*font-family: 'VT323', monospace;*/
   /*font-family: 'Open Sans Condensed', sans-serif;*/
-  font-family: 'Lora', serif;
+  /*font-family: 'Lora', serif;*/
+  font-family: 'Bungee Outline', cursive;
   color: #FF1966;
   background-color: #454444;
   text-align: center;
