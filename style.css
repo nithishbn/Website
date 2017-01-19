@@ -15,24 +15,7 @@
   vertical-align: middle;
   /*font-family: 'Bungee Shade', cursive;*/
   /*font-family: 'Orbitron', sans-serif;*/
-  /*font-family: 'Lobster', cursive;*/
-
-
-    font-family: 'Bungee Hairline', cursive;
-
-
-        /*font-family: 'Bungee Hairline', cursive;*/
-
-        /*font-family: 'Bungee Outline', cursive;*/
-
-        /*font-family: 'Bungee Shade', cursive;*/
-
-        /*font-family: 'Bungee', cursive;*/
-
-        /*font-family: 'Bungee Inline', cursive;*/
-
-
-
+  font-family: 'Lobster', cursive;
   /*margin-right: auto;
   margin-left: auto;*/
   margin: auto;
@@ -50,6 +33,7 @@
   /*text-shadow: 5px 5px 5px #000;
   -webkit-transition: text-shadow 0.5s ease-in-out;*/
 }
+.navbar:
 p{
   /*font-family: 'VT323', monospace;*/
   /*font-family: 'Open Sans Condensed', sans-serif;*/
@@ -59,8 +43,7 @@ p{
 .text-container {
   /*font-family: 'VT323', monospace;*/
   /*font-family: 'Open Sans Condensed', sans-serif;*/
-  /*font-family: 'Lora', serif;*/
-  font-family: 'Bungee Outline', cursive;
+  font-family: 'Lora', serif;
   color: #FF1966;
   background-color: #454444;
   text-align: center;
