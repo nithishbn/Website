@@ -77,7 +77,8 @@
   -webkit-transition: text-shadow 1s ease;
 }
 .link:hover{
-  color: #DE556F;
+  /*color: #DE556F;*/
+  text-decoration: none;
   text-shadow: 10px 10px 10px black;
   -webkit-transition: text-shadow 1s ease;
 }
