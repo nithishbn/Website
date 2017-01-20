@@ -68,7 +68,7 @@
   margin: auto;
   text-decoration: underline;
 }
-/*.link {
+.link {
   color: #d23d6f;
   text-shadow: 2px 2px 2px black;
 }
@@ -76,7 +76,7 @@
   color: #DE556F;
   text-shadow: 10px 10px 10px black;
   -webkit-transition: text-shadow 1s ease;
-}*/
+}
 .project {
   font-family: 'Julius Sans One', sans-serif;
   font-size: 3em;
