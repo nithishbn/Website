@@ -21,8 +21,27 @@
   text-decoration: none;
   color: #f95088;
 }
+#fourohfour {
+  /*text-decoration: none;*/
+  background-color: #444541;
+  width: 12em;
+  font-family: 'Bungee Shade', cursive;
+  font-size: 50px;
+  text-align: center;
+  vertical-align: middle;
+  margin: auto;
 
-
+}
+#goback404 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  vertical-align: middle;
+  margin: auto;
+  text-decoration: none;
+  text-shadow: 5px 5px 5px black;
+  color: #f95088;
+}
 /*p{
   /*font-family: 'VT323', monospace;*/
   /*font-family: 'Open Sans Condensed', sans-serif;*/
@@ -39,7 +58,7 @@
   width: 37.5em;
   margin-right: auto;
   margin-left: auto;
-  
+
 
 }
 .space{
