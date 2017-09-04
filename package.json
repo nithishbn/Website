@@ -4,7 +4,8 @@
   "description": "website stuff",
   "main": "server.js",
   "dependencies": {
-    "express": "^4.15.4"
+    "express": "^4.15.4",
+    "forever": "^0.15.3"
   },
   "devDependencies": {},
   "scripts": {
