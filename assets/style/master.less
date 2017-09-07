@@ -2,7 +2,10 @@
 @desktop: ~"only screen and (min-width: 960px) and (max-width: 1920px)";
 @mobile: ~"only screen and (min-width: 240px) and (max-width: 960px)";
 
-
+// html, body{
+//   height: 100%;
+//   width: 100%;
+// }
 body
 {
     font-family: Roboto;
@@ -125,13 +128,23 @@ a
     text-align: center;
     padding: 0;
     margin: 0;
-
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    // flex-flow: row;
+    @media @mobile {
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+    }
     li
     {
-        padding: 1em;
+        // padding: 2em;
         display: inline-block;
-        margin: 0;
-
+        // margin: 0;
+        @media @mobile {
+          padding: 0.5em;
+        }
         a
         {
             font-family: 'Bungee Shade', cursive;
@@ -141,34 +154,44 @@ a
             }
         }
 
-        &.social-nav
-        {
-            display: block;
-
-            ul
-            {
-                display: block;
-                list-style: none;
-                padding: 0;
-                margin: 0;
-
-                img
-                {
-                    height: 1em;
-                    vertical-align: middle;
-                    transition-duration: 0.25s;
-                    transform: scale(1.0);
-                    &:hover
-                    {
-                        transition-duration: 0.25s;
-                        transform: scale(1.1);
-                    }
-                }
-            }
-        }
     }
-}
 
+
+}
+#social-nav
+{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    // margin: auto;
+    @media @mobile {
+      justify-content: center;
+      padding-right: 35px;
+    }
+    padding-right: 80px;
+    margin: auto;
+    li
+    {
+      display: inline-block;
+        // margin: auto;
+        img
+        {
+          height: 4em;
+          @media @mobile {
+            height: 3em;
+            width: 3em;
+          }
+          transition-duration: 0.25s;
+          transform: scale(1.0);
+
+          &:hover
+          {
+              transition-duration: 0.25s;
+              transform: scale(1.1);
+          }
+        }
+      }
+}
 @keyframes blur-in
 {
     from

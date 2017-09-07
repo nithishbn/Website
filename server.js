@@ -5,4 +5,4 @@ app.use('/', express.static(path.join(__dirname, '/')));
 app.get("*", function(req,res){
   res.redirect("/error/404.html")
 })
-app.listen(9000);
+app.listen(100);
